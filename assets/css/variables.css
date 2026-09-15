@@ -1,1 +1,69 @@
 /* Stores global colors, fonts, and spacing tokens */
+
+@font-face {
+  font-family: 'Outfit';
+  src:
+    local('Outfit'), 
+    url('../fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Young Serif';
+  src: 
+    local('Young Serif'),
+    url(../fonts/young-serif/YoungSerif-Regular.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+
+
+:root {
+  /* Colors */
+  --rose-50: #fff7fb;
+  --rose-800: #7a284e;
+  
+  --stone-100: #f3e5d7;
+  --stone-150: #e3ddd7;
+  --stone-600: #5f564d;
+  --stone-900: #312e2c;
+
+  --brown-800: #854632;
+
+  --white: #ffffff;
+
+  /* Font */
+  --font-sans: 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-serif: 'Young Serif', Georgia, 'Times New Roman', serif;
+
+  /* Font Weight */
+  --font-normal: 400;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  /* Font Size */
+  --font-base: 1rem;      /* 16px */
+  --font-lg: 1.25rem;     /* 20px */
+  --font-xl: 1.75rem;     /* 28px */
+  --font-2xl: 2.5rem;     /* 40px */
+
+  
+  /* Line Height */
+  --tracking-normal: 1;
+  --tracking-large: 1.5;
+
+  /* Spacing */
+  --spacing-100: 0.5rem;     /* 8px */
+  --spacing-150: 0.75rem;    /* 12px */
+  --spacing-200: 1rem;       /* 16px */
+  --spacing-300: 1.5rem;     /* 24px */
+  --spacing-400: 2rem;       /* 32px */
+  --spacing-500: 2.5rem;     /* 40px */
+  --spacing-600: 3rem;       /* 48px */
+  --spacing-1600: 8rem;      /* 128px */
+
+  /* Theme and Color Variables */
+  --body-bg: var(--stone-100);
+
+}
