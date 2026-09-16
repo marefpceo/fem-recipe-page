@@ -54,16 +54,32 @@
   --tracking-large: 1.5;
 
   /* Spacing */
-  --spacing-100: 0.5rem;     /* 8px */
-  --spacing-150: 0.75rem;    /* 12px */
-  --spacing-200: 1rem;       /* 16px */
-  --spacing-300: 1.5rem;     /* 24px */
-  --spacing-400: 2rem;       /* 32px */
-  --spacing-500: 2.5rem;     /* 40px */
-  --spacing-600: 3rem;       /* 48px */
-  --spacing-1600: 8rem;      /* 128px */
+  --spacing-100: 0.5rem;      /* 8px */
+  --spacing-150: 0.75rem;     /* 12px */
+  --spacing-200: 1rem;        /* 16px */
+  --spacing-300: 1.5rem;      /* 24px */
+  --spacing-400: 2rem;        /* 32px */
+  --spacing-500: 2.5rem;      /* 40px */
+  --spacing-600: 3rem;        /* 48px */
+  --spacing-1600: 8rem;       /* 128px */
+
+  /* Radius */
+  --border-sm: 0.75rem;       /* 12px */
+  --border-md: 1rem:          /* 16px */
+  --border-lg: 1.5rem;        /* 24px */ 
 
   /* Theme and Color Variables */
   --body-bg: var(--stone-100);
+  --wrapper-bg: var(--white);
 
+  --text-primary: var(--stone-600);
+  --text-secondary: var(--stone-900);
+  --text-accent: var(--brown-800);
+
+  --figure-bg: var(--rose-50);
+  --figure-title: var(--rose-800);
+  --figure-heading: var(--stone-600);
+  --figure-text: var(--stone-600);
+
+  --divider-light: var(--stone-150);
 }
