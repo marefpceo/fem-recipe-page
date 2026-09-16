@@ -1,9 +1,10 @@
 /* Handles major page grids, containers, and sections */
 
+/* Wrapper applies to the entire content section */
 .wrapper {
   margin: auto;
   max-width: 46rem;
-  padding: var(--spacing-500);
+  background-color: var(--wrapper-bg);
 }
 
 .container {
@@ -11,4 +12,11 @@
   flex-direction: column;
   gap: var(--spacing-300);
   margin: 0;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-400);
+  padding: var(--spacing-500) var(--spacing-400);
 }
