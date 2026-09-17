@@ -1,1 +1,5 @@
 /* Global single-purpose utility classes (margin-top, text-center) */
+
+.text-bold {
+  font-weight: var(--font-bold);
+}

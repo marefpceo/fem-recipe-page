@@ -33,7 +33,7 @@ ul {
 figure {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: var(--spacing-200);
   background-color: var(--figure-bg);
   color: var(--figure-text);
   padding: var(--spacing-300);
@@ -57,7 +57,7 @@ figure {
     /* Removed default bullets */
     list-style: none;
     margin: 0;
-    padding-left: var(--spacing-200);
+    /* padding-left: var(--spacing-100); */
   }
 
   & li {
@@ -72,6 +72,8 @@ figure {
     font-size: 1.5rem;
     line-height: 0;
     color: var(--figure-title);
+    padding-left: var(--spacing-100);
+    padding-right: var(--spacing-150);
   }
 }
 
