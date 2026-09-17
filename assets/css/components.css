@@ -1,1 +1,16 @@
 /* Houses buttons, cards, and reusable UI pieces */
+
+.section-list {
+  line-height: var(--tracking-large);
+  letter-spacing: 0;
+
+  & .list-container li {
+    padding-left: var(--spacing-200);
+  }
+
+  & li::marker {
+    color: var(--text-accent);
+    font-weight: var(--font-bold);
+  }
+}
+
