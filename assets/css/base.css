@@ -5,6 +5,15 @@ body {
   font-family: var(--font-sans);
   background-color: var(--body-bg);
   color: var(--text-primary);
+
+  @media (min-width: 768px) {
+    padding: var(--spacing-1600) var(--spacing-600);
+    letter-spacing: 0;
+  }
+
+  @media (min-width: 1024px) {
+    padding: var(--spacing-1600);
+  }
 }
 
 h1 {
@@ -14,6 +23,7 @@ h1 {
   /* min-font 32px/ 2rem | max-font 40px/ 2.5rem */
   font-size: clamp(2.000rem, calc(1.857rem + 0.714vw), 2.500rem);
   line-height: var(--tracking-normal);
+  letter-spacing: 0;
 }
 
 h2 {
@@ -28,6 +38,14 @@ hr {
   border: none;
   border-top: 1px solid var(--divider-light);
   width: 100%;
+}
+
+img {
+  border-radius: 0;
+
+  @media (min-width: 768px) {
+    border-radius: var(--border-sm);
+  }
 }
 
 ol,

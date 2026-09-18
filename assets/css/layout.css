@@ -5,6 +5,11 @@
   margin: auto;
   max-width: 46rem;
   background-color: var(--wrapper-bg);
+
+  @media (min-width: 768px) {
+    padding: var(--spacing-500);
+    border-radius: var(--border-lg);
+  }
 }
 
 .container {
@@ -19,6 +24,10 @@
   flex-direction: column;
   gap: var(--spacing-400);
   padding: var(--spacing-500) var(--spacing-400);
+
+  @media (min-width: 768px) {
+    padding: var(--spacing-500) 0;
+  }
 }
 
 .list-container {
