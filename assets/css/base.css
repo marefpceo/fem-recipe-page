@@ -24,6 +24,12 @@ h2 {
   line-height: var(--tracking-normal);
 }
 
+hr {
+  border: none;
+  border-top: 1px solid var(--divider-light);
+  width: 100%;
+}
+
 ol,
 ul {
   padding-left: 0;
